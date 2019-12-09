@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+  <uml:Model xmi:id="_v49Y8Pc5EemuNJCEF2KQzg" name="model">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_v8ktoPc5EemuNJCEF2KQzg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_v8zXIPc5EemuNJCEF2KQzg">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xXRxEPc5EemuNJCEF2KQzg" name="Indicateur de santé"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_9VWFkPc5EemuNJCEF2KQzg" name="Affichage des indicateurs"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bkrK8Pc6EemuNJCEF2KQzg" name="Affichage prevision"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lPK6UPc6EemuNJCEF2KQzg" name="Conseil et Alertes"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_0u_eUPc6EemuNJCEF2KQzg" name="Capteur de temperature"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BHEOQPc7EemuNJCEF2KQzg" name="Capteur d'humidité"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_D-sisPc7EemuNJCEF2KQzg" name="Capteur CO2"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_G3riAPc7EemuNJCEF2KQzg" name="Capteur COV"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LlTHsPc7EemuNJCEF2KQzg" name="Capteur deplacement d'air"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Ogiw0Pc7EemuNJCEF2KQzg" name="Consommation d'electricité"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZtLBUPc7EemuNJCEF2KQzg" name="Production electrique"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_emdrgPc7EemuNJCEF2KQzg" name="Capteur Qte eau chaude"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_irTZ8Pc7EemuNJCEF2KQzg" name="Capteur charge de la voiture"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_l2xQYPc7EemuNJCEF2KQzg" name="Capteur Ratio production/consommation"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_4N5_wPc7EemuNJCEF2KQzg" name="Refine27" client="_v49Y8Pc5EemuNJCEF2KQzg" supplier="_0u_eUPc6EemuNJCEF2KQzg"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_K0364Pc8EemuNJCEF2KQzg" name="Satisfy28" client="_0u_eUPc6EemuNJCEF2KQzg" supplier="_xXRxEPc5EemuNJCEF2KQzg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_i_d2oPc8EemuNJCEF2KQzg" name="Qualité d'air"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_n5-o0Pc8EemuNJCEF2KQzg" name="Consommation éléectrique"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uOxnsPc8EemuNJCEF2KQzg" name="Production éléctrique"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_yyjU4Pc8EemuNJCEF2KQzg" name="Autonomie Voiture"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_EoPkEPc9EemuNJCEF2KQzg" name="Nombre de douche disponible"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_T-tXwPc9EemuNJCEF2KQzg" name="Ratio production / consomation électrique"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_iGH-YPc9EemuNJCEF2KQzg" name="Prévision Qualité de l'air"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pQ4U4Pc9EemuNJCEF2KQzg" name="Prévision consommation électrique"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wSwcMPc9EemuNJCEF2KQzg" name="Prévision production d'énergie"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_6Yy4EPc9EemuNJCEF2KQzg" name="Charge quotidienne"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-VAO8Pc9EemuNJCEF2KQzg" name="Douche quotidienne"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-XGgsPc9EemuNJCEF2KQzg" name="Prévision ratio production consomatio"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-ZH58Pc9EemuNJCEF2KQzg" name="Conseil ouvrir fénetre"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-bVgcPc9EemuNJCEF2KQzg" name="Ne pas faire entrer nouveaux visiteur"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-dYH0Pc9EemuNJCEF2KQzg" name="Limiter nombre personne"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-fxUgPc9EemuNJCEF2KQzg" name="Rappel fermer fenêtre"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-iNkgPc9EemuNJCEF2KQzg" name="Faire signaux sonores"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_v8d_8Pc5EemuNJCEF2KQzg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v8f1IPc5EemuNJCEF2KQzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_v8hDQPc5EemuNJCEF2KQzg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v8hDQfc5EemuNJCEF2KQzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_v8hDQvc5EemuNJCEF2KQzg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v8hqUPc5EemuNJCEF2KQzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_v8hqUfc5EemuNJCEF2KQzg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v8hqUvc5EemuNJCEF2KQzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_v8hqU_c5EemuNJCEF2KQzg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v8iRYPc5EemuNJCEF2KQzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_v8iRYfc5EemuNJCEF2KQzg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v8iRYvc5EemuNJCEF2KQzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_v8i4cPc5EemuNJCEF2KQzg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v8i4cfc5EemuNJCEF2KQzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_v8i4cvc5EemuNJCEF2KQzg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v8i4c_c5EemuNJCEF2KQzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_v8jfgPc5EemuNJCEF2KQzg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v8jfgfc5EemuNJCEF2KQzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_v8jfgvc5EemuNJCEF2KQzg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v8kGkPc5EemuNJCEF2KQzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_xYzbEPc5EemuNJCEF2KQzg" base_Class="_xXRxEPc5EemuNJCEF2KQzg" id="1" text="Le systeme doit pouvoir etre capable de combiner les informations provenant de plusieurs capteurs"/>
+  <Requirements:Requirement xmi:id="_9VWsoPc5EemuNJCEF2KQzg" base_Class="_9VWFkPc5EemuNJCEF2KQzg" id="2" text="Le systeme doit pouvoir afficher des données en instantannées et en graphique de maniere intelligible par l'humain&#x9;"/>
+  <Requirements:Requirement xmi:id="_bktnMPc6EemuNJCEF2KQzg" base_Class="_bkrK8Pc6EemuNJCEF2KQzg" id="3" text="Le systeme doit pouvoir afficher et effectuer des previsions de differentes mesures pour la journée et pour la semaine"/>
+  <Requirements:Requirement xmi:id="_lPNWkPc6EemuNJCEF2KQzg" base_Class="_lPK6UPc6EemuNJCEF2KQzg" id="4" text="Le systeme doit pouvoir afficher des conseils et des alertes basées sur les données recoltées"/>
+  <Requirements:Requirement xmi:id="_0vB6kPc6EemuNJCEF2KQzg" base_Class="_0u_eUPc6EemuNJCEF2KQzg" id="1.1"/>
+  <Requirements:Requirement xmi:id="_BHGDcPc7EemuNJCEF2KQzg" base_Class="_BHEOQPc7EemuNJCEF2KQzg" id="1.2"/>
+  <Requirements:Requirement xmi:id="_D-u-8Pc7EemuNJCEF2KQzg" base_Class="_D-sisPc7EemuNJCEF2KQzg" id="1.3"/>
+  <Requirements:Requirement xmi:id="_G3tXMPc7EemuNJCEF2KQzg" base_Class="_G3riAPc7EemuNJCEF2KQzg" id="1.4"/>
+  <Requirements:Requirement xmi:id="_LlU84Pc7EemuNJCEF2KQzg" base_Class="_LlTHsPc7EemuNJCEF2KQzg" id="1.5"/>
+  <Requirements:Requirement xmi:id="_OgkmAPc7EemuNJCEF2KQzg" base_Class="_Ogiw0Pc7EemuNJCEF2KQzg" id="1.6"/>
+  <Requirements:Requirement xmi:id="_ZtNdkPc7EemuNJCEF2KQzg" base_Class="_ZtLBUPc7EemuNJCEF2KQzg" id="1.7"/>
+  <Requirements:Requirement xmi:id="_emfgsPc7EemuNJCEF2KQzg" base_Class="_emdrgPc7EemuNJCEF2KQzg" id="1.8"/>
+  <Requirements:Requirement xmi:id="_irVPIPc7EemuNJCEF2KQzg" base_Class="_irTZ8Pc7EemuNJCEF2KQzg" id="1.9"/>
+  <Requirements:Requirement xmi:id="_l2zsoPc7EemuNJCEF2KQzg" base_Class="_l2xQYPc7EemuNJCEF2KQzg" id="1.10"/>
+  <Requirements:Refine xmi:id="_4N9DEPc7EemuNJCEF2KQzg" base_DirectedRelationship="_4N5_wPc7EemuNJCEF2KQzg" base_Abstraction="_4N5_wPc7EemuNJCEF2KQzg"/>
+  <Requirements:Satisfy xmi:id="_K06XIPc8EemuNJCEF2KQzg" base_DirectedRelationship="_K0364Pc8EemuNJCEF2KQzg" base_Abstraction="_K0364Pc8EemuNJCEF2KQzg"/>
+  <Requirements:Requirement xmi:id="_i_fr0Pc8EemuNJCEF2KQzg" base_Class="_i_d2oPc8EemuNJCEF2KQzg" id="2.1"/>
+  <Requirements:Requirement xmi:id="_n6AeAPc8EemuNJCEF2KQzg" base_Class="_n5-o0Pc8EemuNJCEF2KQzg" id="2.2"/>
+  <Requirements:Requirement xmi:id="_uOzc4Pc8EemuNJCEF2KQzg" base_Class="_uOxnsPc8EemuNJCEF2KQzg" id="2.3"/>
+  <Requirements:Requirement xmi:id="_yylKEPc8EemuNJCEF2KQzg" base_Class="_yyjU4Pc8EemuNJCEF2KQzg" id="2.4"/>
+  <Requirements:Requirement xmi:id="_EoSAUPc9EemuNJCEF2KQzg" base_Class="_EoPkEPc9EemuNJCEF2KQzg" id="2.5"/>
+  <Requirements:Requirement xmi:id="_T-v0APc9EemuNJCEF2KQzg" base_Class="_T-tXwPc9EemuNJCEF2KQzg" id="2.6"/>
+  <Requirements:Requirement xmi:id="_iGJzkPc9EemuNJCEF2KQzg" base_Class="_iGH-YPc9EemuNJCEF2KQzg" id="3.1"/>
+  <Requirements:Requirement xmi:id="_pQ6KEPc9EemuNJCEF2KQzg" base_Class="_pQ4U4Pc9EemuNJCEF2KQzg" id="3.2"/>
+  <Requirements:Requirement xmi:id="_wSyRYPc9EemuNJCEF2KQzg" base_Class="_wSwcMPc9EemuNJCEF2KQzg" id="3.3"/>
+  <Requirements:Requirement xmi:id="_6Y0tQPc9EemuNJCEF2KQzg" base_Class="_6Yy4EPc9EemuNJCEF2KQzg" id="3.4" text="La voiture sera t'elle chargée a 16h30"/>
+  <Requirements:Requirement xmi:id="_-VA2APc9EemuNJCEF2KQzg" base_Class="_-VAO8Pc9EemuNJCEF2KQzg" id="3.5" text="Affiche si l'on peut prendre une douche le lendemain a 8h10"/>
+  <Requirements:Requirement xmi:id="_-XHHwPc9EemuNJCEF2KQzg" base_Class="_-XGgsPc9EemuNJCEF2KQzg" id="3.6"/>
+  <Requirements:Requirement xmi:id="_-ZIhAPc9EemuNJCEF2KQzg" base_Class="_-ZH58Pc9EemuNJCEF2KQzg" id="4.1"/>
+  <Requirements:Requirement xmi:id="_-bVgcfc9EemuNJCEF2KQzg" base_Class="_-bVgcPc9EemuNJCEF2KQzg" id="4.2"/>
+  <Requirements:Requirement xmi:id="_-dYu4Pc9EemuNJCEF2KQzg" base_Class="_-dYH0Pc9EemuNJCEF2KQzg" id="4.3"/>
+  <Requirements:Requirement xmi:id="_-fx7kPc9EemuNJCEF2KQzg" base_Class="_-fxUgPc9EemuNJCEF2KQzg" id="4.4"/>
+  <Requirements:Requirement xmi:id="_-iOLkPc9EemuNJCEF2KQzg" base_Class="_-iNkgPc9EemuNJCEF2KQzg" id="4.5"/>
+</xmi:XMI>
