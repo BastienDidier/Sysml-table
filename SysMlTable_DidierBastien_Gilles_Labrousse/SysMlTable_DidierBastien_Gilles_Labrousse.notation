@@ -3,8 +3,8 @@
   <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IKbVkPc2Eem5_tLONL_Wdg" source="http://www.eclipse.org/papyrus/infra/nattable/version">
     <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IKbVkfc2Eem5_tLONL_Wdg" key="version" value="1.3.0"/>
   </eAnnotations>
-  <context xmi:type="uml:Model" href="alfred.uml#_H_nzwPc2Eem5_tLONL_Wdg"/>
-  <owner xmi:type="uml:Model" href="alfred.uml#_H_nzwPc2Eem5_tLONL_Wdg"/>
+  <context xmi:type="uml:Model" href="SysMlTable_DidierBastien_Gilles_Labrousse.uml#_H_nzwPc2Eem5_tLONL_Wdg"/>
+  <owner xmi:type="uml:Model" href="SysMlTable_DidierBastien_Gilles_Labrousse.uml#_H_nzwPc2Eem5_tLONL_Wdg"/>
   <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#__qulcG1gEeijMr8XjU8gCg"/>
   <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_IKYSQfc2Eem5_tLONL_Wdg" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
     <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_IKYSQvc2Eem5_tLONL_Wdg" element="property_of_stereotype:/SysML::Requirements::Requirement::id">
